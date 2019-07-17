@@ -1,0 +1,12 @@
+div.cooked img:not(.emoji):not(.avatar):not(.thumbnail):not(.site-icon), div.mermaid svg{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    margin: 10px;
+}
+
+div#suggested-topics{
+    padding: 100px 0 15px 0;
+}
+
+div#suggested-topics tbody a{
+    font-size: 0.9em;
+}
