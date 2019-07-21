@@ -10,3 +10,15 @@ div#suggested-topics{
 div#suggested-topics tbody a{
     font-size: 0.9em;
 }
+
+div.topic-last-activity, span.relative-date, div.timeline-ago, div.timeline-date-wrapper{
+    visibility:hidden;
+}
+
+td.topics > div:nth-child(1), *.activity.num{
+    display:none;
+}
+
+table.category-list td.topics a.badge-notification{
+    font-size: 1em;
+}
